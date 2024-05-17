@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+   ;
+   
+}
+
+body{
+    background: #F5E4FF 
 }
 
 header {
@@ -10,11 +17,18 @@ header {
     flex-direction: row;
     padding: 5px 40px;
     align-items: center;
-    background: aqua;    
+    margin: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: #D4A3F6;
+    position: sticky;
+    top: 10px;
+    
 }
 
 .header__image  img {
     width: 110px;
+    margin-top: 10px;
 }
  
 .header__menu-container {
@@ -26,23 +40,68 @@ ul.header__menu {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: 25px;
 }
 
 li {
     list-style: none;
     text-decoration: none;
+ 
    
 }
 
 a {
     text-decoration: none;
-    color: #D4A3F6;
+    color: white;
 }
 
-.doof__image img{
-    width: 100px;
-}
-
-.page__contents{
+section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
+
+.card1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    gap: 69px;
+
+}
+
+.card__img img{
+    width: 200px;
+}
+
+.font--lg{
+    font-size: 50px;
+
+}
+
+.font--md{
+
+    font-size: 25px;
+}
+
+.font--sm{
+
+    font-size: 10px;
+}
+
+.boton{
+    border: none;
+    background: #bc92db;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background: #a82bff;
+}
+
